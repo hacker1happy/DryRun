@@ -1,0 +1,24 @@
+body{
+    background-color: #34ebf1;
+}
+form{
+    margin: 10% auto;
+    /* padding-top: 40%; */
+    width: 200px;
+    padding: 30px;
+    border: 1px solid rgb(249, 249, 249);
+    background: #fcfbfb;
+    box-shadow: 0 0 20px 0 rgba(90, 1, 255, 0.932);
+    line-height: 2;
+}
+table, th, td {
+    border: 2px solid rgb(0, 0, 0);
+    text-align:center;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 20px;
+    background-color:none;
+}
+  
+
