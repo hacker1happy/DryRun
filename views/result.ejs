@@ -1,0 +1,25 @@
+<%- include("header"); -%>
+
+<p>
+    Bubble sort works on the repeatedly swapping of adjacent elements until they are not in the intended order. It is called bubble sort because the movement of array elements is just like the movement of air bubbles in the water. Bubbles in water rise up to the surface; similarly, the array elements in bubble sort move to the end in each iteration.
+</p><br>
+<h3>Algorithm</h3>
+<pre>
+    <code>
+        begin BubbleSort(arr)  
+            for all array elements  
+                if arr[i] > arr[i+1]  
+                    swap(arr[i], arr[i+1])  
+                end if  
+            end for     
+            return arr     
+        end BubbleSort  
+    </code>
+</pre>
+
+<h4>Example</h4>
+    <div id="example">
+</div>
+<script src="js/result.js"></script>
+
+<%- include("footer"); -%>
