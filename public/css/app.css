@@ -1,28 +1,45 @@
-body {
+body{
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
   background-color: aliceblue;
 }
 
-.topnav {
-  list-style-type: none;
-  overflow: hidden;
-  background-color: #333;
-  height: 50px
+/* Navigation */
+nav{
+  float: left;
+  margin: 0;
+  overflow:hidden;
+  text-align: center;
 }
 
-.topnav a {
-  display: inline;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
+nav ul{
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li{
+  display: inline-block;
+  list-style-type: none;
+}
+
+nav > ul > li > a{
+  color: #aaa;
+  display: block;
+  line-height: 2em;
+  padding: 1.5em 2em;
   text-decoration: none;
 }
 
-
-
-.topnav a:hover {
-  background-color: #111;
+.logo-img{
+  float: left;
+  position: relative;
+  margin: 0px;
 }
-
+.bg-div{
+ background:#333;
+ overflow: hidden;
+}
 .ko {
   list-style-type: none;
   margin: 0;
@@ -61,11 +78,4 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 100%;
-}
-
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
 }
