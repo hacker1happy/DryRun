@@ -22,9 +22,9 @@ function sleep(ms) {
 async function bblSort(arr) {
 
 
-  for (var i = 0; i < arr.length; i++) {
+  for (var i = 0; i < arr.length-1; i++) {
 
-    for (var j = 0; j < (arr.length - i - 1); j++) {
+    for (var j = 0; j < (arr.length - i -1); j++) {
 
       print(arr, j);
       await sleep(2000);
@@ -34,6 +34,8 @@ async function bblSort(arr) {
         arr[j] = arr[j + 1]
         arr[j + 1] = temp
       }
+      print(arr, j);
+      await sleep(2000);
     }
   }
 }
